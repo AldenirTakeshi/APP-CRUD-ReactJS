@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
 
-const Main = () => {
+const Main = (props) => {
   return (
     <>
-      <Header />
+      <Header {...props} />
       <main className="content">Conteúdo</main>
     </>
   );

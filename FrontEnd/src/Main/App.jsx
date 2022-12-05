@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../components/template/Logo";
 import Footer from "../components/template/Footer";
 import Main from "../components/template/Main";
@@ -10,7 +11,7 @@ const App = () => {
     <div className="app">
       <Logo />
       <Nav />
-      <Main />
+      <Main title="Inicío" subtitle="Segundo projeto com React" />
       <Footer />
     </div>
   );
