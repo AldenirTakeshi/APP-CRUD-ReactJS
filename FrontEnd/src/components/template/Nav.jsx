@@ -9,13 +9,11 @@ const Nav = () => {
       <nav className="menu">
         {/* <NavItem text="Início" /> */}
         <a href="#/users">
-          <FaHome />
-          Inicío
+          <FaHome /> Inicío
         </a>
         {"  "}
         <a href="#/users">
-          <FaUsers />
-          Usários
+          <FaUsers /> Usários
         </a>
       </nav>
     </aside>

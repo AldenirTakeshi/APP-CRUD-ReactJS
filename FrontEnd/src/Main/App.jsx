@@ -3,15 +3,15 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../components/template/Logo";
 import Footer from "../components/template/Footer";
-import Main from "../components/template/Main";
 import Nav from "../components/template/Nav";
+import Home from "../components/Home/Home";
 
 const App = () => {
   return (
     <div className="app">
       <Logo />
       <Nav />
-      <Main title="Inicío" subtitle="Segundo projeto com React" />
+      <Home />
       <Footer />
     </div>
   );
